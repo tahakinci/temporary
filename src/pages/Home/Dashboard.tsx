@@ -60,18 +60,18 @@ const useStyles = makeStyles({
     flexShrink: 1,
     ...shorthands.padding('0.75rem'),
   },
-  // 'is-7': {
-  //   '@media screen and (min-width: 769px)': {
-  //     display: 'flex',
-  //     width: '58.3333%',
-  //   },
-  // },
-  // 'is-5': {
-  //   '@media screen and (min-width: 769px)': {
-  //     display: 'flex',
-  //     width: '41.66667%',
-  //   },
-  // },
+  'is-7': {
+    '@media screen and (min-width: 769px)': {
+      ...shorthands.flex('none'),
+      width: '58.3333%',
+    },
+  },
+  'is-5': {
+    '@media screen and (min-width: 769px)': {
+      ...shorthands.flex('none'),
+      width: '41.66667%',
+    },
+  },
   fullHeight: {
     height: '100%',
   },

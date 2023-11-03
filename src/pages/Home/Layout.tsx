@@ -3,7 +3,7 @@ import { Footer } from './Footer';
 import { Header } from './Header';
 import { MaterialInfo } from './MaterialInfo';
 import { Sidebar } from './Sidebar';
-import { makeStyles, mergeClasses, shorthands, tokens } from '@fluentui/react-components';
+import { makeStyles, mergeClasses, shorthands } from '@fluentui/react-components';
 
 const useStyles = makeStyles({
   container: {
